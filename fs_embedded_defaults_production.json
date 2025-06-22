@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "f70a48bc9c1ed34262c8eaf9679d85ee130c7d24",
+    "feature_set_token" : "8372b770318cd8bde1d790123e2a617f615c36c9",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -2012,6 +2012,9 @@
       "home_timeline_client_deduping_using_impression_cache_enabled" : {
         "value" : true
       },
+      "home_timeline_cold_start_loading_deferral_seconds" : {
+        "value" : 0.0
+      },
       "home_timeline_extended_reactivity_session_length_in_minutes" : {
         "value" : 30.0
       },
@@ -2583,6 +2586,9 @@
         "value" : false
       },
       "ios_dm_dash_pin_to_bottom_v2_enabled" : {
+        "value" : false
+      },
+      "ios_dm_dash_push_notification_override_enabled" : {
         "value" : false
       },
       "ios_dm_dash_remove_vanishing_mode_enabled" : {
@@ -3761,6 +3767,9 @@
       "media_tab_immersive_v2_enabled" : {
         "value" : false
       },
+      "media_tab_immersive_v2_handle_photos_enabled" : {
+        "value" : false
+      },
       "media_tab_immersive_v2_not_interested_button_enabled" : {
         "value" : true
       },
@@ -4119,7 +4128,7 @@
         "value" : [ "en", "ja" ]
       },
       "payments_client_attestation_create_auth_session_enabled" : {
-        "value" : false
+        "value" : true
       },
       "payments_crb_iframe_delay_msecs" : {
         "value" : 1000.0
@@ -4738,6 +4747,9 @@
       },
       "standardized_nudges_toxicity" : {
         "value" : true
+      },
+      "subscriptions_advanced_commerce_api_for_super_follow_enabled" : {
+        "value" : false
       },
       "subscriptions_advanced_search_enabled" : {
         "value" : true
@@ -5697,7 +5709,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "f51f02357485b7a71868705c59d4cd7e89926691",
-    "experiments" : "f51f02357485b7a71868705c59d4cd7e89926691"
+    "feature_switches" : "b4b560070b8878eec7cd2393f052f7c67ba73e24",
+    "experiments" : "b4b560070b8878eec7cd2393f052f7c67ba73e24"
   }
 }
