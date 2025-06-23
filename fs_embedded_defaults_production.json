@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "8372b770318cd8bde1d790123e2a617f615c36c9",
+    "feature_set_token" : "87431b1f89e782c19c7658a71447316502fbe18f",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -3282,7 +3282,7 @@
         "value" : true
       },
       "ios_ui_carousels_with_engagement_bar_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_ui_chirp_ui_account_spoofing_font_style_enabled" : {
         "value" : true
@@ -3297,7 +3297,7 @@
         "value" : true
       },
       "ios_ui_hide_play_button_videos_in_htl" : {
-        "value" : false
+        "value" : true
       },
       "ios_ui_inline_actions_tip_ddg_variant" : {
         "value" : 0.0
@@ -5709,7 +5709,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "b4b560070b8878eec7cd2393f052f7c67ba73e24",
-    "experiments" : "b4b560070b8878eec7cd2393f052f7c67ba73e24"
+    "feature_switches" : "34fca58b1ba7ac87f603ba5d557c3dbdb5540a9a",
+    "experiments" : "34fca58b1ba7ac87f603ba5d557c3dbdb5540a9a"
   }
 }
