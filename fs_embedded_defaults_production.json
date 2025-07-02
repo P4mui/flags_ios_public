@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "325451843f0905be2b4533d74118c285fbe199f2",
+    "feature_set_token" : "fe7bf5a7bfc831bb22e829817ae9d8e80130cb01",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -2613,7 +2613,7 @@
         "value" : false
       },
       "ios_dm_dash_open_links_external" : {
-        "value" : false
+        "value" : true
       },
       "ios_dm_dash_pin_to_bottom_v2_enabled" : {
         "value" : false
@@ -5702,6 +5702,9 @@
       "xchat_socket_hostname" : {
         "value" : "chat-ws.x.com"
       },
+      "xchat_throttle_badge_counts" : {
+        "value" : false
+      },
       "xchat_verify_message_signatures" : {
         "value" : false
       },
@@ -5751,7 +5754,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "823c24f7298647b909ae6c5be532ffce165d8bbf",
-    "experiments" : "823c24f7298647b909ae6c5be532ffce165d8bbf"
+    "feature_switches" : "410f357d2a353d02d6aef854bcdb2c390265a2ea",
+    "experiments" : "410f357d2a353d02d6aef854bcdb2c390265a2ea"
   }
 }
