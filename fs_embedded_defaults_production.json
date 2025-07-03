@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "fe7bf5a7bfc831bb22e829817ae9d8e80130cb01",
+    "feature_set_token" : "84227579f577fa9ff5eb7a256240f3ffecc7512f",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -2721,7 +2721,7 @@
         "value" : false
       },
       "ios_notification_redesign_timestamp_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_notifications_auth_bg_task_enabled" : {
         "value" : true
@@ -5754,7 +5754,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "410f357d2a353d02d6aef854bcdb2c390265a2ea",
-    "experiments" : "410f357d2a353d02d6aef854bcdb2c390265a2ea"
+    "feature_switches" : "90e47e88296d7f9e9a6b56304b3b7ac518d2f767",
+    "experiments" : "90e47e88296d7f9e9a6b56304b3b7ac518d2f767"
   }
 }
