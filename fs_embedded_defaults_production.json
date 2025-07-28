@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "fd6a8b712b1e2b3e6cf9a08dc87e65021c7ea3d1",
+    "feature_set_token" : "9d4973d34f4fe13edad91e278848f472c730e600",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -69,7 +69,7 @@
         "value" : true
       },
       "ads_impression_logging_is_deferred_cell_height_calculation_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ads_promote_mode_enabled" : {
         "value" : false
@@ -182,6 +182,9 @@
       "av_chat_groups_video_maximum_size" : {
         "value" : 4.0
       },
+      "av_chat_ice_restart_on_failure_enabled" : {
+        "value" : false
+      },
       "av_chat_ios_pushkit_token_registration_enabled" : {
         "value" : true
       },
@@ -193,6 +196,9 @@
       },
       "av_chat_live_kit_room_url" : {
         "value" : "wss:\/\/webrtc.prscp.net"
+      },
+      "av_chat_log_statistics_report_on_failure_enabled" : {
+        "value" : false
       },
       "av_chat_logs_debug_enabled" : {
         "value" : true
@@ -2255,18 +2261,6 @@
       "home_timeline_sticky_new_tweets_pill_manual_refresh_duration" : {
         "value" : 120.0
       },
-      "home_timeline_uprank_unseen_tweets_enabled" : {
-        "value" : false
-      },
-      "home_timeline_uprank_unseen_tweets_list_count_needed" : {
-        "value" : 0.0
-      },
-      "home_timeline_uprank_unseen_tweets_max_count" : {
-        "value" : 10.0
-      },
-      "home_timeline_viewport_aware_cache_clearing" : {
-        "value" : false
-      },
       "home_timeline_warm_start_min_background_minutes" : {
         "value" : -1.0
       },
@@ -2407,6 +2401,15 @@
       },
       "ios_ad_formats_avoid_should_skip_details_enabled" : {
         "value" : true
+      },
+      "ios_ad_formats_disable_links_for_urls" : {
+        "value" : false
+      },
+      "ios_ad_formats_hide_links_for_urls" : {
+        "value" : false
+      },
+      "ios_ad_formats_hide_vanity_view_url_enabled" : {
+        "value" : false
       },
       "ios_alt_text_profile_images_read_enabled" : {
         "value" : false
@@ -2597,6 +2600,9 @@
       "ios_consideration_share_long_press_tweet_share_enabled" : {
         "value" : false
       },
+      "ios_consideration_share_screenshot_prompt_auto_dismiss_seconds" : {
+        "value" : 30.0
+      },
       "ios_consideration_share_screenshot_prompt_treatment" : {
         "value" : "control"
       },
@@ -2605,6 +2611,9 @@
       },
       "ios_consideration_share_to_linked_in_enabled" : {
         "value" : true
+      },
+      "ios_consideration_share_tweet_detail_minimum_focal_visibility" : {
+        "value" : 0.5
       },
       "ios_custom_scribing_bookmark_retweet_enabled" : {
         "value" : false
@@ -2894,23 +2903,8 @@
       "ios_pinned_post_fatigue_warning_enabled" : {
         "value" : true
       },
-      "ios_premium_paywall_preloaded_webview_default_upsells_variant" : {
-        "value" : ""
-      },
       "ios_premium_paywall_preloaded_webview_direct_upgrade_enabled" : {
         "value" : false
-      },
-      "ios_premium_paywall_preloaded_webview_download_video_variant" : {
-        "value" : ""
-      },
-      "ios_premium_paywall_preloaded_webview_enabled" : {
-        "value" : false
-      },
-      "ios_premium_paywall_preloaded_webview_grok_variant" : {
-        "value" : ""
-      },
-      "ios_premium_paywall_preloaded_webview_main_variant" : {
-        "value" : ""
       },
       "ios_premium_paywall_preloaded_webview_pagesheet_modal" : {
         "value" : true
@@ -3055,6 +3049,9 @@
       },
       "ios_swift_notification_handler_enabled" : {
         "value" : "enabled"
+      },
+      "ios_swiftui_updated_share_sheet_enabled" : {
+        "value" : false
       },
       "ios_switchreview_enabled" : {
         "value" : false
@@ -5823,7 +5820,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "cb4c7431afc0e0f9c0defff82337332a5fef454d",
-    "experiments" : "cb4c7431afc0e0f9c0defff82337332a5fef454d"
+    "feature_switches" : "3574577e36b86910907be64310d136bf9026122e",
+    "experiments" : "3574577e36b86910907be64310d136bf9026122e"
   }
 }
