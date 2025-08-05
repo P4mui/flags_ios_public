@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "6e1f7b75ecfe433f98cfbab07b67f258836d0154",
+    "feature_set_token" : "4e6375e1be434f0e7b55fbadafd8a6acfc5c1cdc",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -123,7 +123,7 @@
         "value" : true
       },
       "app_attest_lock_enabled" : {
-        "value" : false
+        "value" : true
       },
       "app_attest_ocf_timeout_enabled" : {
         "value" : true
@@ -2422,9 +2422,6 @@
       },
       "ios_ad_formats_avoid_should_skip_details_enabled" : {
         "value" : true
-      },
-      "ios_ad_formats_hide_vanity_view_url_enabled" : {
-        "value" : false
       },
       "ios_age_assurance_show_age_verification_flow" : {
         "value" : false
@@ -5114,6 +5111,9 @@
       "subscriptions_upsells_ios_premium_right_nav_button_variant" : {
         "value" : ""
       },
+      "subscriptions_upsells_other_user_profile_header_migration_enabled" : {
+        "value" : false
+      },
       "subscriptions_upsells_post_analytics_dismiss_for_seconds" : {
         "value" : 0.0
       },
@@ -5473,6 +5473,9 @@
       },
       "unified_cards_deep_linking_should_errors_fail_quietly" : {
         "value" : true
+      },
+      "unified_cards_deep_linking_urls_to_always_open_in_browser" : {
+        "value" : [ "verizon", "apple" ]
       },
       "unified_cards_deep_linking_web_card_universal_links_enabled" : {
         "value" : true
@@ -5859,7 +5862,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "a66d5e40ff376ee0f346e89012601368dc49670a",
-    "experiments" : "a66d5e40ff376ee0f346e89012601368dc49670a"
+    "feature_switches" : "2ad3ab0b753662855ba74ac07c85718aeddc68a8",
+    "experiments" : "2ad3ab0b753662855ba74ac07c85718aeddc68a8"
   }
 }
