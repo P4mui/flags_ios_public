@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "9129500bb3961110199b96426416112359275512",
+    "feature_set_token" : "d8165abd15d3a81bd6a49674f5a4343978895125",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1998,10 +1998,16 @@
         "value" : false
       },
       "grok_timeline_create_own_button_variant" : {
-        "value" : ""
+        "value" : "button"
       },
       "grok_timeline_create_own_is_enabled" : {
         "value" : true
+      },
+      "grok_timeline_create_own_is_enabled_detail_page" : {
+        "value" : false
+      },
+      "grok_timeline_create_own_is_enabled_quoted_status" : {
+        "value" : false
       },
       "grok_timeline_grok_url_should_open_in_external_browser_is_enabled" : {
         "value" : true
@@ -2013,7 +2019,7 @@
         "value" : true
       },
       "grok_timeline_slideshow_imagine_menu_is_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_translations_bio_auto_translation_is_enabled" : {
         "value" : false
@@ -5931,7 +5937,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "9c73dded13fd7f2af69413b503b902c2b27f0712",
-    "experiments" : "9c73dded13fd7f2af69413b503b902c2b27f0712"
+    "feature_switches" : "5dae52dc72693eb2897e55ae44eee462b3607766",
+    "experiments" : "5dae52dc72693eb2897e55ae44eee462b3607766"
   }
 }
