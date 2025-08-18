@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "02c3c05a22edf38999f63cfda5a8d67b50a371de",
+    "feature_set_token" : "607cd3b3b5423b9de11942a609cb5e82a60476b6",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -2016,7 +2016,7 @@
         "value" : true
       },
       "grok_timeline_create_own_navigate_to_imagine_tab_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_timeline_create_own_title" : {
         "value" : "Make Your Own Video"
@@ -2040,7 +2040,7 @@
         "value" : true
       },
       "grok_timeline_video_imagine_menu_is_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_translations_bio_auto_translation_is_enabled" : {
         "value" : false
@@ -5929,5 +5929,9 @@
   },
   "embedded_experiments" : [ ],
   "requires_restart" : [ ],
-  "supports_accessibility" : [ ]
+  "supports_accessibility" : [ ],
+  "versions" : {
+    "feature_switches" : "2ed9cf3d514203ed277a3ced49acd243383c2a72",
+    "experiments" : "2ed9cf3d514203ed277a3ced49acd243383c2a72"
+  }
 }
