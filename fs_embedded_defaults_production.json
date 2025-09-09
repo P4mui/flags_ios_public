@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "0a6a9f4f0ab533b2f5501c6fa54ab3064fad00b7",
+    "feature_set_token" : "ce512f6e3303709c9e0a45d31588b7ceffbab8bb",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -2919,7 +2919,7 @@
         "value" : [ "Inspect Tw", "We\u2019ll show", "Stop recei", "Share " ]
       },
       "ios_notification_permissions_banner_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_notification_permissions_banner_respawn_time_in_seconds" : {
         "value" : 2419200.0
@@ -6036,7 +6036,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "940c65274e26139d0554ed6a51f80f3dd771aa3f",
-    "experiments" : "940c65274e26139d0554ed6a51f80f3dd771aa3f"
+    "feature_switches" : "fdd2325a29800a3f1885fe6288172ef4286aa67e",
+    "experiments" : "fdd2325a29800a3f1885fe6288172ef4286aa67e"
   }
 }
