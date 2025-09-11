@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "59a6e51607c87a6dc6bc98f4a8b011687247eb25",
+    "feature_set_token" : "375a53183281d0863d0df5d22c719bc3a786896a",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1700,8 +1700,20 @@
       "grok_composer_attachment_imagine_menu_title" : {
         "value" : ""
       },
+      "grok_composer_attachment_imagine_redo_is_enabled" : {
+        "value" : false
+      },
+      "grok_composer_attachment_imagine_redo_menu_title" : {
+        "value" : ""
+      },
+      "grok_composer_attachment_imagine_redo_prompt_title" : {
+        "value" : ""
+      },
       "grok_composer_imagine_is_enabled" : {
         "value" : true
+      },
+      "grok_composer_imagine_without_grok_app_is_enabled" : {
+        "value" : false
       },
       "grok_composer_supports_post_link_deeplink" : {
         "value" : true
@@ -1995,7 +2007,7 @@
         "value" : false
       },
       "grok_ios_voice_mode_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_ios_voice_mode_premium_enabled" : {
         "value" : false
@@ -6042,7 +6054,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "83d9d96858b682821da8d9716f2a167349a6ab62",
-    "experiments" : "83d9d96858b682821da8d9716f2a167349a6ab62"
+    "feature_switches" : "8fe50276944b278f2885dadc0e2e1a3ad10820a0",
+    "experiments" : "8fe50276944b278f2885dadc0e2e1a3ad10820a0"
   }
 }
