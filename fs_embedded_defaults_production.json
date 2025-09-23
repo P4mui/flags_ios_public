@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "259536bb41f95e33a2ebca357752cba7a880e337",
+    "feature_set_token" : "dc9e7117ec2b6cc4ebc1b029b455c0722ffbc418",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -186,7 +186,7 @@
         "value" : false
       },
       "av_chat_is_audio_session_activation_delegation_enabled" : {
-        "value" : true
+        "value" : false
       },
       "av_chat_is_main_actor_coordinator_enabled" : {
         "value" : false
@@ -2568,7 +2568,7 @@
         "value" : false
       },
       "ios_ad_formats_optional_headline_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_ad_formats_swipeable_container_trailing_padding" : {
         "value" : 32.0
@@ -6102,7 +6102,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "5f2d2459af96414d52ebf99ec22a1a400286adf3",
-    "experiments" : "5f2d2459af96414d52ebf99ec22a1a400286adf3"
+    "feature_switches" : "29fa90dbbc2b9108f7afb83df53fd2c45d9c4b78",
+    "experiments" : "29fa90dbbc2b9108f7afb83df53fd2c45d9c4b78"
   }
 }
