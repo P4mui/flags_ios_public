@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "dc9e7117ec2b6cc4ebc1b029b455c0722ffbc418",
+    "feature_set_token" : "97255ef9e0fc42216294bd135e967392ceb0fa75",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1715,6 +1715,9 @@
       "grok_composer_attachment_imagine_redo_prompt_title" : {
         "value" : ""
       },
+      "grok_composer_hide_keyboard_after_attachment" : {
+        "value" : false
+      },
       "grok_composer_imagine_button_style" : {
         "value" : "above_attachment"
       },
@@ -2384,48 +2387,6 @@
       "home_timeline_spheres_ux_debug_menu_enabled" : {
         "value" : false
       },
-      "home_timeline_start_at_top_clear_cache_autoload_bottom_enabled" : {
-        "value" : false
-      },
-      "home_timeline_start_at_top_clear_cache_enabled" : {
-        "value" : false
-      },
-      "home_timeline_start_at_top_clear_cache_min_entries" : {
-        "value" : -1.0
-      },
-      "home_timeline_start_at_top_disable_home_scroll_position_restoration_on_cold_launch_enabled" : {
-        "value" : true
-      },
-      "home_timeline_start_at_top_failure_threshold" : {
-        "value" : 0.0
-      },
-      "home_timeline_start_at_top_latest_enabled" : {
-        "value" : false
-      },
-      "home_timeline_start_at_top_load_bottom_enabled" : {
-        "value" : false
-      },
-      "home_timeline_start_at_top_loading_shimmer_enabled" : {
-        "value" : false
-      },
-      "home_timeline_start_at_top_min_background_minutes" : {
-        "value" : -1.0
-      },
-      "home_timeline_start_at_top_num_attempts_tracked" : {
-        "value" : 0.0
-      },
-      "home_timeline_start_at_top_restore_scroll_position_after_success_enabled" : {
-        "value" : false
-      },
-      "home_timeline_start_at_top_restore_scroll_position_after_timeout_enabled" : {
-        "value" : false
-      },
-      "home_timeline_start_at_top_success_threshold" : {
-        "value" : 0.0
-      },
-      "home_timeline_start_at_top_timeout_length" : {
-        "value" : -1.0
-      },
       "home_timeline_sticky_new_tweets_pill_all_enabled" : {
         "value" : true
       },
@@ -2565,6 +2526,12 @@
         "value" : false
       },
       "ios_ad_formats_avoid_should_skip_details_enabled" : {
+        "value" : false
+      },
+      "ios_ad_formats_media_component_aspect_ratio_capped" : {
+        "value" : false
+      },
+      "ios_ad_formats_media_scaled_to_fit" : {
         "value" : false
       },
       "ios_ad_formats_optional_headline_enabled" : {
@@ -2837,9 +2804,6 @@
       "ios_dm_dash_message_forward_enabled" : {
         "value" : false
       },
-      "ios_dm_dash_message_hybrid_cursor_enabled" : {
-        "value" : false
-      },
       "ios_dm_dash_message_requests_enabled" : {
         "value" : false
       },
@@ -2847,13 +2811,13 @@
         "value" : false
       },
       "ios_dm_dash_messages_list_diffable_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_dm_dash_messages_list_scroll_avoid_updates_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_dm_dash_messages_list_scroll_restoration_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_dm_dash_nicknames_av_call_enabled" : {
         "value" : true
@@ -4190,6 +4154,9 @@
       "native_mobile_sms_2fa_enabled" : {
         "value" : true
       },
+      "navigation_bar_updated_collapse_variant" : {
+        "value" : 0.0
+      },
       "navigation_stack_referrer_param_enabled" : {
         "value" : true
       },
@@ -4451,9 +4418,6 @@
       "papago_tweet_translation_to_korean_sources" : {
         "value" : [ "en", "ja" ]
       },
-      "payments_automated_direct_deposits_enabled" : {
-        "value" : false
-      },
       "payments_cash_deposits_enabled" : {
         "value" : false
       },
@@ -4461,9 +4425,6 @@
         "value" : false
       },
       "payments_cheques_deposits_enabled" : {
-        "value" : false
-      },
-      "payments_cheques_enabled" : {
         "value" : false
       },
       "payments_crb_iframe_delay_msecs" : {
@@ -6102,7 +6063,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "29fa90dbbc2b9108f7afb83df53fd2c45d9c4b78",
-    "experiments" : "29fa90dbbc2b9108f7afb83df53fd2c45d9c4b78"
+    "feature_switches" : "439c22ebd0df4212fdb42111986dc60742e4506a",
+    "experiments" : "439c22ebd0df4212fdb42111986dc60742e4506a"
   }
 }
