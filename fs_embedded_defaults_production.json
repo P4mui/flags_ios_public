@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "97255ef9e0fc42216294bd135e967392ceb0fa75",
+    "feature_set_token" : "208048278e9fb310a7d4a2ee4ee3d345f818d10e",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -2244,7 +2244,7 @@
         "value" : false
       },
       "home_timeline_cold_start_loading_deferral_seconds" : {
-        "value" : 0.0
+        "value" : 5.0
       },
       "home_timeline_cold_start_uprank_unseen_tweets_enabled" : {
         "value" : true
@@ -2262,7 +2262,7 @@
         "value" : true
       },
       "home_timeline_cold_start_viewport_aware_infinite_shimmer_fix" : {
-        "value" : false
+        "value" : true
       },
       "home_timeline_cold_start_viewport_aware_loading" : {
         "value" : false
@@ -5955,7 +5955,7 @@
         "value" : true
       },
       "xchat_allow_legacy_protocol" : {
-        "value" : false
+        "value" : true
       },
       "xchat_catch_coroutine_exceptions" : {
         "value" : false
@@ -6063,7 +6063,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "439c22ebd0df4212fdb42111986dc60742e4506a",
-    "experiments" : "439c22ebd0df4212fdb42111986dc60742e4506a"
+    "feature_switches" : "50eeaca4f1053b6700144ab882451518e0ab04d2",
+    "experiments" : "50eeaca4f1053b6700144ab882451518e0ab04d2"
   }
 }
