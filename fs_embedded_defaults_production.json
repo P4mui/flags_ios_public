@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "208048278e9fb310a7d4a2ee4ee3d345f818d10e",
+    "feature_set_token" : "c995f0d9792035fcb3be205247f4bb3ae44ee0a6",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -186,6 +186,9 @@
         "value" : false
       },
       "av_chat_is_audio_session_activation_delegation_enabled" : {
+        "value" : false
+      },
+      "av_chat_is_fulfill_on_send_answer_enabled" : {
         "value" : false
       },
       "av_chat_is_main_actor_coordinator_enabled" : {
@@ -1719,7 +1722,7 @@
         "value" : false
       },
       "grok_composer_imagine_button_style" : {
-        "value" : "above_attachment"
+        "value" : "on_attachment_bottom_right"
       },
       "grok_composer_imagine_debug_mode_enabled" : {
         "value" : false
@@ -1728,7 +1731,7 @@
         "value" : true
       },
       "grok_composer_imagine_prompt_input_style" : {
-        "value" : "inplace"
+        "value" : "sheet"
       },
       "grok_composer_supports_post_link_deeplink" : {
         "value" : true
@@ -2208,7 +2211,7 @@
         "value" : 900.0
       },
       "home_timeline_client_deduping_advertiser_user_ids_enabled" : {
-        "value" : true
+        "value" : false
       },
       "home_timeline_client_deduping_advertiser_user_ids_override_enabled" : {
         "value" : false
@@ -3747,7 +3750,7 @@
         "value" : false
       },
       "ios_video_transcode_transmux_max_file_size" : {
-        "value" : 0.0
+        "value" : 1.048576E8
       },
       "ios_video_transcode_transmux_max_file_size_enabled" : {
         "value" : false
@@ -4153,6 +4156,9 @@
       },
       "native_mobile_sms_2fa_enabled" : {
         "value" : true
+      },
+      "navigation_bar_tab_bar_collapse" : {
+        "value" : false
       },
       "navigation_bar_updated_collapse_variant" : {
         "value" : 0.0
@@ -6063,7 +6069,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "50eeaca4f1053b6700144ab882451518e0ab04d2",
-    "experiments" : "50eeaca4f1053b6700144ab882451518e0ab04d2"
+    "feature_switches" : "16fa234306e9bf15e977fed26de212c089d2acba",
+    "experiments" : "16fa234306e9bf15e977fed26de212c089d2acba"
   }
 }
