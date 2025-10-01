@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "c995f0d9792035fcb3be205247f4bb3ae44ee0a6",
+    "feature_set_token" : "d3dd68a0fb4eac4dd66d945586fbeda0c3c3268a",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -193,12 +193,6 @@
       },
       "av_chat_is_main_actor_coordinator_enabled" : {
         "value" : false
-      },
-      "av_chat_live_kit_enabled" : {
-        "value" : false
-      },
-      "av_chat_live_kit_room_url" : {
-        "value" : "wss:\/\/webrtc.prscp.net"
       },
       "av_chat_log_statistics_report_on_failure_enabled" : {
         "value" : false
@@ -1709,6 +1703,9 @@
       "grok_composer_attachment_imagine_menu_title" : {
         "value" : ""
       },
+      "grok_composer_attachment_imagine_prompt_is_enabled" : {
+        "value" : false
+      },
       "grok_composer_attachment_imagine_redo_is_enabled" : {
         "value" : true
       },
@@ -1719,7 +1716,7 @@
         "value" : ""
       },
       "grok_composer_hide_keyboard_after_attachment" : {
-        "value" : false
+        "value" : true
       },
       "grok_composer_imagine_button_style" : {
         "value" : "on_attachment_bottom_right"
@@ -1731,7 +1728,7 @@
         "value" : true
       },
       "grok_composer_imagine_prompt_input_style" : {
-        "value" : "sheet"
+        "value" : "inplace"
       },
       "grok_composer_supports_post_link_deeplink" : {
         "value" : true
@@ -2543,6 +2540,9 @@
       "ios_ad_formats_swipeable_container_trailing_padding" : {
         "value" : 32.0
       },
+      "ios_ad_formats_website_carousel_drop_details" : {
+        "value" : false
+      },
       "ios_age_assurance_show_age_verification_flow" : {
         "value" : true
       },
@@ -3057,7 +3057,7 @@
         "value" : true
       },
       "ios_post_activity_allow_sorting_favorites" : {
-        "value" : false
+        "value" : true
       },
       "ios_post_activity_allow_sorting_quotes" : {
         "value" : true
@@ -4156,6 +4156,9 @@
       },
       "native_mobile_sms_2fa_enabled" : {
         "value" : true
+      },
+      "navigation_bar_ios_26_flicker_fix" : {
+        "value" : false
       },
       "navigation_bar_tab_bar_collapse" : {
         "value" : false
@@ -5477,9 +5480,6 @@
       "tweet_context_is_enabled" : {
         "value" : true
       },
-      "tweet_convo_ads_spine_click_logging_enabled" : {
-        "value" : true
-      },
       "tweet_detail_inline_reply_bar_full_composer_type" : {
         "value" : "all_actions"
       },
@@ -6069,7 +6069,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "16fa234306e9bf15e977fed26de212c089d2acba",
-    "experiments" : "16fa234306e9bf15e977fed26de212c089d2acba"
+    "feature_switches" : "a5e250c69d31afc59382e3337c9eeee92725be4e",
+    "experiments" : "a5e250c69d31afc59382e3337c9eeee92725be4e"
   }
 }
