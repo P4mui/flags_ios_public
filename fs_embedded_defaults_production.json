@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "661ed6b708791e8ea5238c9d7c07d9e8450486f4",
+    "feature_set_token" : "317f35cb9ba302d227062e0537470e6df3803464",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -2252,8 +2252,14 @@
       "home_timeline_cold_start_defer_timeline_assimilation" : {
         "value" : false
       },
+      "home_timeline_cold_start_improved_shimmer_experience_enabled" : {
+        "value" : false
+      },
       "home_timeline_cold_start_loading_deferral_seconds" : {
         "value" : 5.0
+      },
+      "home_timeline_cold_start_restart_from_top_min_background_minutes" : {
+        "value" : 0.0
       },
       "home_timeline_cold_start_uprank_unseen_tweets_enabled" : {
         "value" : true
@@ -2537,6 +2543,9 @@
       "ios_ad_formats_avoid_should_skip_details_enabled" : {
         "value" : false
       },
+      "ios_ad_formats_disable_spine_clicks" : {
+        "value" : false
+      },
       "ios_ad_formats_media_component_aspect_ratio_capped" : {
         "value" : false
       },
@@ -2790,7 +2799,10 @@
         "value" : false
       },
       "ios_dm_dash_attachment_picker_v2_enabled" : {
-        "value" : true
+        "value" : false
+      },
+      "ios_dm_dash_attachment_picker_v2_recents_enabled" : {
+        "value" : false
       },
       "ios_dm_dash_attachment_tray_enabled" : {
         "value" : false
@@ -2820,7 +2832,7 @@
         "value" : 1.048576E8
       },
       "ios_dm_dash_message_forward_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_dm_dash_message_requests_enabled" : {
         "value" : false
@@ -2831,11 +2843,17 @@
       "ios_dm_dash_profile_dm_entrypoint_enabled" : {
         "value" : false
       },
+      "ios_dm_dash_quick_share_enabled" : {
+        "value" : false
+      },
       "ios_dm_dash_scroll_to_unread_enabled" : {
         "value" : false
       },
       "ios_dm_dash_share_sheet_enabled" : {
         "value" : false
+      },
+      "ios_dm_dash_show_unencrypted_icon_enabled" : {
+        "value" : true
       },
       "ios_double_max_zoom_for_4k_images_enabled" : {
         "value" : false
@@ -3249,13 +3267,13 @@
         "value" : false
       },
       "ios_synced_drafts_fetch_synced_drafts_on_composer_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_synced_drafts_list_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_synced_drafts_upload_from_composer" : {
-        "value" : false
+        "value" : true
       },
       "ios_tab_bar_default_show_communities" : {
         "value" : false
@@ -4175,6 +4193,9 @@
       "native_mobile_sms_2fa_enabled" : {
         "value" : true
       },
+      "navigation_bar_animation_fix" : {
+        "value" : false
+      },
       "navigation_bar_compose_button_glass_effect_tint_alpha" : {
         "value" : 0.3
       },
@@ -4451,6 +4472,9 @@
       "papago_tweet_translation_to_korean_sources" : {
         "value" : [ "en", "ja" ]
       },
+      "payments_card_name_suggestions_enabled" : {
+        "value" : false
+      },
       "payments_cash_deposits_enabled" : {
         "value" : false
       },
@@ -4479,6 +4503,9 @@
         "value" : false
       },
       "payments_lock_unlock_individual_cards_enabled" : {
+        "value" : false
+      },
+      "payments_mailing_address_enabled" : {
         "value" : false
       },
       "payments_offboard_enabled" : {
@@ -6012,7 +6039,7 @@
         "value" : false
       },
       "xchat_allow_legacy_protocol" : {
-        "value" : true
+        "value" : false
       },
       "xchat_catch_coroutine_exceptions" : {
         "value" : true
@@ -6051,6 +6078,9 @@
         "value" : 250.0
       },
       "xchat_max_group_size_for_remove_info_item" : {
+        "value" : 100.0
+      },
+      "xchat_max_users_to_fetch_per_request" : {
         "value" : 100.0
       },
       "xchat_process_events_in_batch" : {
@@ -6126,7 +6156,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "773527f369db5a56c8b4f9b3b3b63411d7a81998",
-    "experiments" : "773527f369db5a56c8b4f9b3b3b63411d7a81998"
+    "feature_switches" : "47ba15facf943bcd03d51e55480e6f8c959ab748",
+    "experiments" : "47ba15facf943bcd03d51e55480e6f8c959ab748"
   }
 }
