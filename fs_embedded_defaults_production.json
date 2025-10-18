@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "317f35cb9ba302d227062e0537470e6df3803464",
+    "feature_set_token" : "5b1dd873f46801279986705a186d4861114e6e2d",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -189,6 +189,9 @@
         "value" : true
       },
       "av_chat_is_audio_session_activation_delegation_enabled" : {
+        "value" : false
+      },
+      "av_chat_is_call_kit_manager_update_enabled" : {
         "value" : false
       },
       "av_chat_is_end_call_audio_signal_v2_enabled" : {
@@ -2249,6 +2252,9 @@
       "home_timeline_cold_start_bottom_cursor_fetch_always" : {
         "value" : false
       },
+      "home_timeline_cold_start_cache_truncation_loader_deferral" : {
+        "value" : false
+      },
       "home_timeline_cold_start_defer_timeline_assimilation" : {
         "value" : false
       },
@@ -2546,6 +2552,9 @@
       "ios_ad_formats_disable_spine_clicks" : {
         "value" : false
       },
+      "ios_ad_formats_event_info_logging" : {
+        "value" : false
+      },
       "ios_ad_formats_media_component_aspect_ratio_capped" : {
         "value" : false
       },
@@ -2557,6 +2566,9 @@
       },
       "ios_ad_formats_swipeable_container_trailing_padding" : {
         "value" : 32.0
+      },
+      "ios_ad_formats_viewable_impressions" : {
+        "value" : false
       },
       "ios_age_assurance_show_age_verification_flow" : {
         "value" : true
@@ -2804,9 +2816,6 @@
       "ios_dm_dash_attachment_picker_v2_recents_enabled" : {
         "value" : false
       },
-      "ios_dm_dash_attachment_tray_enabled" : {
-        "value" : false
-      },
       "ios_dm_dash_dm_tab_enabled" : {
         "value" : false
       },
@@ -2850,6 +2859,9 @@
         "value" : false
       },
       "ios_dm_dash_share_sheet_enabled" : {
+        "value" : false
+      },
+      "ios_dm_dash_show_pull_failures" : {
         "value" : false
       },
       "ios_dm_dash_show_unencrypted_icon_enabled" : {
@@ -2902,6 +2914,9 @@
       },
       "ios_in_app_article_webview_blacklist_domains" : {
         "value" : [ "apple.com", "wayfair.com" ]
+      },
+      "ios_in_app_article_webview_convert_youtube_links" : {
+        "value" : true
       },
       "ios_in_app_article_webview_copy_x_post_enabled" : {
         "value" : true
@@ -3099,7 +3114,7 @@
         "value" : true
       },
       "ios_post_activity_allow_sorting_retweets" : {
-        "value" : false
+        "value" : true
       },
       "ios_post_activity_button_on_tweet_detail_enabled" : {
         "value" : true
@@ -3136,6 +3151,9 @@
       },
       "ios_professional_spotlight_configuration_page_v1_enabled" : {
         "value" : true
+      },
+      "ios_profile_about_page_enabled" : {
+        "value" : false
       },
       "ios_profile_analytics_upsell_debug_always_enabled" : {
         "value" : false
@@ -5799,7 +5817,7 @@
         "value" : 0.7
       },
       "unified_cards_preview_skip_details_disabled" : {
-        "value" : true
+        "value" : false
       },
       "unified_cards_preview_skip_details_disabled_budget_aware_experiment_id" : {
         "value" : "498154"
@@ -6033,7 +6051,7 @@
         "value" : true
       },
       "xchat_allow_legacy_media_uploads" : {
-        "value" : false
+        "value" : true
       },
       "xchat_allow_legacy_message_requests" : {
         "value" : false
@@ -6043,6 +6061,9 @@
       },
       "xchat_catch_coroutine_exceptions" : {
         "value" : true
+      },
+      "xchat_continue_previous_inbox_pagination" : {
+        "value" : false
       },
       "xchat_conversation_event_limit" : {
         "value" : 200.0
@@ -6156,7 +6177,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "47ba15facf943bcd03d51e55480e6f8c959ab748",
-    "experiments" : "47ba15facf943bcd03d51e55480e6f8c959ab748"
+    "feature_switches" : "6f6a713c40b9def1c7987ca98efe0e89ce6825db",
+    "experiments" : "6f6a713c40b9def1c7987ca98efe0e89ce6825db"
   }
 }
