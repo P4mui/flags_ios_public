@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "c8cd657c60fbed3946f08ef61bff6116cfcb92e0",
+    "feature_set_token" : "88285de688556def876147860428d2b88b5e5ecc",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1716,7 +1716,7 @@
         "value" : ""
       },
       "grok_composer_attachment_imagine_prompt_is_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_composer_attachment_imagine_redo_is_enabled" : {
         "value" : true
@@ -2274,7 +2274,7 @@
         "value" : false
       },
       "home_timeline_cold_start_loading_deferral_seconds" : {
-        "value" : 5.0
+        "value" : 0.0
       },
       "home_timeline_cold_start_min_loading_seconds" : {
         "value" : 0.0
@@ -2298,7 +2298,7 @@
         "value" : false
       },
       "home_timeline_cold_start_viewport_aware_infinite_shimmer_fix" : {
-        "value" : true
+        "value" : false
       },
       "home_timeline_cold_start_viewport_aware_loading" : {
         "value" : false
@@ -2655,7 +2655,7 @@
         "value" : "disabled"
       },
       "ios_client_performance_defer_notifications_load_until_view_will_appear_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_client_performance_display_link_global_configuration_enabled" : {
         "value" : false
@@ -2919,7 +2919,7 @@
         "value" : false
       },
       "ios_in_app_article_webview_blacklist_domains" : {
-        "value" : [ "apple.com", "wayfair.com", "grok.com", "applink.instagram.com", "fb.me", "app-va.tiktokv.com", "open.substack.com" ]
+        "value" : [ "Deeplink URLs breaking inline reading experience. Open externally instead.", "apple.com", "wayfair.com", "youtube.com", "grok.com", "Grok.com", "applink.instagram.com", "fb.me", "app-va.tiktokv.com", "open.substack.com" ]
       },
       "ios_in_app_article_webview_convert_youtube_links" : {
         "value" : false
@@ -2961,10 +2961,10 @@
         "value" : true
       },
       "ios_in_app_article_webview_navigation_deeplink_blacklist_app_ids" : {
-        "value" : [ "id389801252", "id284882215", "id835599320", "id1581650857", "id6446901002" ]
+        "value" : [ ]
       },
       "ios_in_app_article_webview_navigation_deeplink_blacklist_domains" : {
-        "value" : [ "applink.instagram.com", "fb.me", "app-va.tiktokv.com", "open.substack.com" ]
+        "value" : [ ]
       },
       "ios_in_app_article_webview_navigation_deeplink_blacklist_enabled" : {
         "value" : true
@@ -6243,7 +6243,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "c7ba29a920826776d9b5263554e00e6208d97708",
-    "experiments" : "c7ba29a920826776d9b5263554e00e6208d97708"
+    "feature_switches" : "097616a262ac0bc72abe16df51389b97feb2cfd2",
+    "experiments" : "097616a262ac0bc72abe16df51389b97feb2cfd2"
   }
 }
