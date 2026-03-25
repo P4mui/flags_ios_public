@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "f4c8f849aecc056bd202ff3fcd24784897990531",
+    "feature_set_token" : "d0a6551865be8b3077ac736c66d6fed5da087c19",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1182,9 +1182,6 @@
         "value" : false
       },
       "conversational_replies_ios_downvote_enabled" : {
-        "value" : false
-      },
-      "conversational_replies_ios_downvote_immersive_enabled" : {
         "value" : false
       },
       "conversational_replies_ios_minimal_detail_enabled_v2" : {
@@ -2901,7 +2898,7 @@
         "value" : false
       },
       "ios_dash_history_feed_video_min_duration_seconds" : {
-        "value" : 300.0
+        "value" : 600.0
       },
       "ios_dash_history_feed_video_persist_after_progress_seconds" : {
         "value" : 5.0
@@ -4476,7 +4473,7 @@
         "value" : true
       },
       "onboarding_new_add_existing_account_enabled" : {
-        "value" : false
+        "value" : true
       },
       "onboarding_new_connect_tab_contacts_enabled" : {
         "value" : false
@@ -5918,6 +5915,9 @@
       "unified_cards_force_show_cta_bar_card_types" : {
         "value" : [ ]
       },
+      "unified_cards_grok_card_transform_enabled" : {
+        "value" : true
+      },
       "unified_cards_install_button_redesign_enabled" : {
         "value" : true
       },
@@ -6405,7 +6405,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "46849862dc6f9fca1a6879682a9b3001dae80952",
-    "experiments" : "46849862dc6f9fca1a6879682a9b3001dae80952"
+    "feature_switches" : "8ce833f0869618136c255c4ba171d8e4f68c2951",
+    "experiments" : "8ce833f0869618136c255c4ba171d8e4f68c2951"
   }
 }
