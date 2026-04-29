@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "ded3f62308d59717f7bfb32d879849d65b70b834",
+    "feature_set_token" : "fb505fb2ae1bd8bc731c3e8fd5b401fe9ab91926",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -186,10 +186,10 @@
         "value" : 30.0
       },
       "av_chat_callkit_unknown_provider_reset_enabled" : {
-        "value" : false
+        "value" : true
       },
       "av_chat_conversation_id_comparison_enabled" : {
-        "value" : false
+        "value" : true
       },
       "av_chat_dms_call_menu_enabled" : {
         "value" : true
@@ -1889,6 +1889,9 @@
       "grok_ios_app_campaign_create_own_video" : {
         "value" : "https:\/\/apps.apple.com\/app\/apple-store\/id6670324846?pt=126952307&ct=X%20Make%20Your%20Own%20Video&mt=8"
       },
+      "grok_ios_app_campaign_direct_grokapp_flow" : {
+        "value" : "https:\/\/apps.apple.com\/app\/grok-ai-chat-video\/id6670324846?ppid=09d36316-1e42-4eb5-b2b4-7139ec4d1254"
+      },
       "grok_ios_app_campaign_get_grok_home_timeline" : {
         "value" : "https:\/\/apps.apple.com\/app\/apple-store\/id6670324846?pt=126952307&ct=X%20Home%20Timeline%20Get%20Grok&mt=8"
       },
@@ -3081,7 +3084,7 @@
         "value" : false
       },
       "ios_font_engagement_bar_content_scaling_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_font_use_chirp_ui_202601_font" : {
         "value" : true
@@ -3109,12 +3112,6 @@
       },
       "ios_home_timeline_items_refactor_v2_enabled" : {
         "value" : false
-      },
-      "ios_home_timeline_scroll_to_tapped_tweet_on_return_enabled" : {
-        "value" : false
-      },
-      "ios_home_timeline_scroll_to_tapped_tweet_on_return_seconds" : {
-        "value" : 60.0
       },
       "ios_htl_design_updates_2025_debug_show_status_id_enabled" : {
         "value" : false
@@ -3506,6 +3503,9 @@
       "ios_share_instagram_stories_video_max_seconds" : {
         "value" : 180.0
       },
+      "ios_share_sheet_2026_redesign_enabled" : {
+        "value" : false
+      },
       "ios_share_sheet_dms_carousel_enabled" : {
         "value" : true
       },
@@ -3874,6 +3874,9 @@
       },
       "ios_tweet_promote_button_non_author_check_disabled" : {
         "value" : false
+      },
+      "ios_tweet_promote_button_optimistic_label_enabled" : {
+        "value" : true
       },
       "ios_tweet_promote_button_quote_tweets_check_disabled" : {
         "value" : true
@@ -4480,6 +4483,9 @@
       },
       "media_upload_stop_idle_timer_while_upload_enabled" : {
         "value" : true
+      },
+      "media_upload_video_captions_enabled" : {
+        "value" : false
       },
       "media_upload_video_quality_selector_enabled" : {
         "value" : true
@@ -5723,6 +5729,9 @@
       "subscriptions_verification_info_verified_since_enabled" : {
         "value" : true
       },
+      "subscriptions_verified_to_premium_enabled" : {
+        "value" : false
+      },
       "super_follow_badge_user_education_enabled" : {
         "value" : true
       },
@@ -5778,6 +5787,9 @@
         "value" : false
       },
       "targeted_project_friday_enabled" : {
+        "value" : false
+      },
+      "thirdparty_boost_author_view_button_enabled" : {
         "value" : false
       },
       "thirdparty_boost_transparency_label_enabled" : {
@@ -6588,6 +6600,9 @@
         "value" : true
       },
       "xchat_voice_messages_transcription_enabled" : {
+        "value" : false
+      },
+      "xmoney_boost_post_flow_enabled" : {
         "value" : false
       },
       "xprofile_blocked_by_view_enabled" : {
