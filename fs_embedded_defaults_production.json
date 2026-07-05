@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "e95d6c5844dc9fc1d04f7f045340b9bc5dd01782",
+    "feature_set_token" : "19318897c5acd29bd48a259a9f2aa90a36ae3cb2",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1415,6 +1415,9 @@
       "explore_relaunch_items_left_fetch_threshold" : {
         "value" : 5.0
       },
+      "explore_relaunch_live_chat_auto_open_enabled" : {
+        "value" : false
+      },
       "explore_relaunch_live_chat_repost_messages_enabled" : {
         "value" : true
       },
@@ -1422,6 +1425,9 @@
         "value" : true
       },
       "explore_relaunch_live_scheduled_countdown_enabled" : {
+        "value" : false
+      },
+      "explore_relaunch_live_scheduled_reminder_enabled" : {
         "value" : false
       },
       "explore_relaunch_non_interruptive_bookmarks_flow_enabled" : {
@@ -2141,6 +2147,9 @@
       "home_timeline_cold_start_alternate_cache_truncation_variant" : {
         "value" : 1.0
       },
+      "home_timeline_cold_start_cache_truncation_navigation_instruction_enabled" : {
+        "value" : false
+      },
       "home_timeline_cold_start_early_cache_truncation_enabled" : {
         "value" : false
       },
@@ -2648,6 +2657,9 @@
       "ios_cell_layout_debug_enabled" : {
         "value" : false
       },
+      "ios_chrome_pin_during_activity_enabled" : {
+        "value" : false
+      },
       "ios_client_performance_add_status_cell_autoplayable_once_per_visibility_call_enabled" : {
         "value" : false
       },
@@ -3071,6 +3083,9 @@
       "ios_memory_relief_clear_cached_display_text_enabled" : {
         "value" : false
       },
+      "ios_memory_relief_termination_toast_min_pressure" : {
+        "value" : 0.0
+      },
       "ios_menus_long_string_warnings_enabled" : {
         "value" : false
       },
@@ -3280,6 +3295,9 @@
       },
       "ios_profile_image_md5_hashing_enabled" : {
         "value" : true
+      },
+      "ios_profile_redesign_header_buttons_variant" : {
+        "value" : 0.0
       },
       "ios_profile_redesign_header_rework_enabled" : {
         "value" : false
@@ -3667,6 +3685,9 @@
       },
       "ios_toasts_update_enabled" : {
         "value" : true
+      },
+      "ios_tray_action_menu_enabled" : {
+        "value" : false
       },
       "ios_tray_home_filters_enabled" : {
         "value" : false
@@ -4310,12 +4331,6 @@
       "media_tab_immersive_broadcast_auto_dock_on_dismiss_enabled" : {
         "value" : false
       },
-      "media_tab_immersive_broadcasts_auto_open_replies_enabled" : {
-        "value" : false
-      },
-      "media_tab_immersive_broadcasts_auto_open_replies_min_chat_messages" : {
-        "value" : 0.0
-      },
       "media_tab_immersive_dock_button_uses_bottom_dock_enabled" : {
         "value" : false
       },
@@ -4324,6 +4339,9 @@
       },
       "media_tab_immersive_pip_trace_enabled" : {
         "value" : false
+      },
+      "media_tab_immersive_tappable_captions_enabled" : {
+        "value" : true
       },
       "media_tab_slideshow_migration_enabled" : {
         "value" : false
@@ -4365,6 +4383,9 @@
         "value" : true
       },
       "media_upload_video_editor_enabled" : {
+        "value" : false
+      },
+      "media_upload_video_editor_thumbnail_enabled" : {
         "value" : false
       },
       "media_upload_video_quality_selector_for_all_qualities_enabled" : {
@@ -4541,18 +4562,6 @@
       "ocf_2fa_unenrollment_enabled" : {
         "value" : true
       },
-      "onboarding_account_follow_prompt_embedded_enabled" : {
-        "value" : false
-      },
-      "onboarding_account_follow_prompt_embedded_max_following_count" : {
-        "value" : 40.0
-      },
-      "onboarding_account_follow_prompt_embedded_max_toast_count" : {
-        "value" : 3.0
-      },
-      "onboarding_account_follow_prompt_embedded_presentation" : {
-        "value" : "gray"
-      },
       "onboarding_bonus_follow_compact_layout_in_profiles_enabled" : {
         "value" : false
       },
@@ -4679,6 +4688,9 @@
       "payments_business_onboarding_support" : {
         "value" : [ ]
       },
+      "payments_check_deposit_image_autofocus_enabled" : {
+        "value" : true
+      },
       "payments_check_deposit_image_client_crop_enabled" : {
         "value" : false
       },
@@ -4743,7 +4755,7 @@
         "value" : true
       },
       "perftown_event_whitelist" : {
-        "value" : [ "image:wait_time:tweet_media:not_loaded:fling", "image:wait_time:tweet_media:not_loaded:navigate", "image:wait_time:tweet_media:undefined:success", "image:wait_time:tweet_media:undefined:failure", "image:wait_time:tweet_media:memory:success", "image:wait_time:tweet_media:memory:failure", "image:wait_time:tweet_media:local_file:success", "image:wait_time:tweet_media:local_file:failure", "image:wait_time:tweet_media:legacy_cache:success", "image:wait_time:tweet_media:legacy_cache:failure", "image:wait_time:tweet_media:network:success", "image:wait_time:tweet_media:network:failure", "web_view:wait_time:url:api:tco_resolution", "web_view:wait_time:url:local_cache:tco_resolution", "web_view:wait_time:url:redirect:tco_resolution", "home:first_tweet_api", "home:first_tweet_api_warm", "home:first_tweet_cache", "home:first_tweet_cache_warm", "home:first_tweet_request", "api:wifi:::rxbytes", "api:wifi:::txbytes", "api:mobile:::rxbytes", "api:mobile:::txbytes", "api:wifi:api::rxbytes", "api:wifi:api::txbytes", "api:mobile:api::rxbytes", "api:mobile:api::txbytes", "api:wifi:image::rxbytes", "api:wifi:image::txbytes", "api:mobile:image::rxbytes", "api:mobile:image::txbytes", "api:wifi:image:foundmediaimage:rxbytes", "api:wifi:image:foundmediaimage:txbytes", "api:mobile:image:foundmediaimage:rxbytes", "api:mobile:image:foundmediaimage:txbytes", "api:wifi:av::rxbytes", "api:wifi:av::txbytes", "api:mobile:av::rxbytes", "api:mobile:av::txbytes", "api:wifi:scribe::rxbytes", "api:wifi:scribe::txbytes", "api:mobile:scribe::rxbytes", "api:mobile:scribe::txbytes", "api:wifi:other::rxbytes", "api:wifi:other::txbytes", "api:mobile:other::rxbytes", "api:mobile:other::txbytes", "device:storage:appbytes", "device:storage:cachebytes", "device:storage:databytes", "device:storage:totalbytes", "media_upload:local_file:tweet_video:short:full:success", "media_upload:local_file:tweet_video:short:full:failure", "media_upload:local_file:tweet_video:short:full:cancel", "media_upload:local_file:tweet_video:short:processing:latency", "media_upload:local_file:tweet_video:short:hash:start", "media_upload:local_file:tweet_video:short:hash:complete", "media_upload:local_file:tweet_video:short:hash:failure", "media_upload:local_file:tweet_video:medium:full:success", "media_upload:local_file:tweet_video:medium:full:failure", "media_upload:local_file:tweet_video:medium:full:cancel", "media_upload:local_file:tweet_video:medium:processing:latency", "media_upload:local_file:tweet_video:medium:hash:start", "media_upload:local_file:tweet_video:medium:hash:complete", "media_upload:local_file:tweet_video:medium:hash:failure", "media_upload:local_file:tweet_video:long:full:success", "media_upload:local_file:tweet_video:long:full:failure", "media_upload:local_file:tweet_video:long:full:cancel", "media_upload:local_file:tweet_video:long:processing:latency", "media_upload:local_file:tweet_video:long:hash:start", "media_upload:local_file:tweet_video:long:hash:complete", "media_upload:local_file:tweet_video:long:hash:failure", "media_upload:local_file:tweet_video:xlong:full:success", "media_upload:local_file:tweet_video:xlong:full:failure", "media_upload:local_file:tweet_video:xlong:full:cancel", "media_upload:local_file:tweet_video:xlong:processing:latency", "media_upload:local_file:tweet_video:xlong:hash:start", "media_upload:local_file:tweet_video:xlong:hash:complete", "media_upload:local_file:tweet_video:xlong:hash:failure", "media_upload:local_file:dm_video:short:full:success", "media_upload:local_file:dm_video:short:full:failure", "media_upload:local_file:dm_video:short:full:cancel", "media_upload:local_file:dm_video:short:processing:latency", "media_upload:local_file:dm_video:short:hash:start", "media_upload:local_file:dm_video:short:hash:complete", "media_upload:local_file:dm_video:short:hash:failure", "media_upload:local_file:dm_video:medium:full:success", "media_upload:local_file:dm_video:medium:full:failure", "media_upload:local_file:dm_video:medium:full:cancel", "media_upload:local_file:dm_video:medium:processing:latency", "media_upload:local_file:dm_video:medium:hash:start", "media_upload:local_file:dm_video:medium:hash:complete", "media_upload:local_file:dm_video:medium:hash:failure", "media_upload:local_file:dm_video:long:full:success", "media_upload:local_file:dm_video:long:full:failure", "media_upload:local_file:dm_video:long:full:cancel", "media_upload:local_file:dm_video:long:processing:latency", "media_upload:local_file:dm_video:long:hash:start", "media_upload:local_file:dm_video:long:hash:complete", "media_upload:local_file:dm_video:long:hash:failure", "media_upload:local_file:dm_video:xlong:full:success", "media_upload:local_file:dm_video:xlong:full:failure", "media_upload:local_file:dm_video:xlong:full:cancel", "media_upload:local_file:dm_video:xlong:processing:latency", "media_upload:local_file:dm_video:xlong:hash:start", "media_upload:local_file:dm_video:xlong:hash:complete", "media_upload:local_file:dm_video:xlong:hash:failure", "media_upload:in_app_recorded:tweet_video:short:full:success", "media_upload:in_app_recorded:tweet_video:short:full:failure", "media_upload:in_app_recorded:tweet_video:short:full:cancel", "media_upload:in_app_recorded:tweet_video:short:processing:latency", "media_upload:in_app_recorded:tweet_video:medium:full:success", "media_upload:in_app_recorded:tweet_video:medium:full:failure", "media_upload:in_app_recorded:tweet_video:medium:full:cancel", "media_upload:in_app_recorded:tweet_video:medium:processing:latency", "media_upload:in_app_recorded:tweet_video:long:full:success", "media_upload:in_app_recorded:tweet_video:long:full:failure", "media_upload:in_app_recorded:tweet_video:long:full:cancel", "media_upload:in_app_recorded:tweet_video:long:processing:latency", "media_upload:in_app_recorded:tweet_video:xlong:full:success", "media_upload:in_app_recorded:tweet_video:xlong:full:failure", "media_upload:in_app_recorded:tweet_video:xlong:full:cancel", "media_upload:in_app_recorded:tweet_video:xlong:processing:latency", "media_upload:in_app_recorded:dm_video:short:full:success", "media_upload:in_app_recorded:dm_video:short:full:failure", "media_upload:in_app_recorded:dm_video:short:full:cancel", "media_upload:in_app_recorded:dm_video:short:processing:latency", "media_upload:in_app_recorded:dm_video:medium:full:success", "media_upload:in_app_recorded:dm_video:medium:full:failure", "media_upload:in_app_recorded:dm_video:medium:full:cancel", "media_upload:in_app_recorded:dm_video:medium:processing:latency", "media_upload:in_app_recorded:dm_video:long:full:success", "media_upload:in_app_recorded:dm_video:long:full:failure", "media_upload:in_app_recorded:dm_video:long:full:cancel", "media_upload:in_app_recorded:dm_video:long:processing:latency", "media_upload:in_app_recorded:dm_video:xlong:full:success", "media_upload:in_app_recorded:dm_video:xlong:full:failure", "media_upload:in_app_recorded:dm_video:xlong:full:cancel", "media_upload:in_app_recorded:dm_video:xlong:processing:latency", "media_upload:local_file:tweet_image::full:success", "media_upload:local_file:tweet_image::full:failure", "media_upload:local_file:tweet_image::full:cancel", "media_upload:local_file:tweet_image::processing:latency", "media_upload:local_file:tweet_image::hash:start", "media_upload:local_file:tweet_image::hash:complete", "media_upload:local_file:tweet_image::hash:failure", "media_upload:local_file:dm_image::full:success", "media_upload:local_file:dm_image::full:failure", "media_upload:local_file:dm_image::full:cancel", "media_upload:local_file:dm_image::processing:latency", "media_upload:local_file:dm_image::hash:start", "media_upload:local_file:dm_image::hash:complete", "media_upload:local_file:dm_image::hash:failure", "media_upload:in_app_recorded:tweet_image::full:success", "media_upload:in_app_recorded:tweet_image::full:failure", "media_upload:in_app_recorded:tweet_image::full:cancel", "media_upload:in_app_recorded:tweet_image::processing:latency", "media_upload:in_app_recorded:dm_image::full:success", "media_upload:in_app_recorded:dm_image::full:failure", "media_upload:in_app_recorded:dm_image::full:cancel", "media_upload:in_app_recorded:dm_image::processing:latency", "media_upload:local_file:tweet_gif:all:full:success", "media_upload:local_file:tweet_gif:all:full:failure", "media_upload:local_file:tweet_gif:all:full:cancel", "media_upload:local_file:tweet_gif:all:processing:latency", "media_upload:local_file:tweet_gif:all:hash:start", "media_upload:local_file:tweet_gif:all:hash:complete", "media_upload:local_file:tweet_gif:all:hash:failure", "media_upload:local_file:dm_gif:all:full:success", "media_upload:local_file:dm_gif:all:full:failure", "media_upload:local_file:dm_gif:all:full:cancel", "media_upload:local_file:dm_gif:all:processing:latency", "media_upload:local_file:dm_gif:all:hash:start", "media_upload:local_file:dm_gif:all:hash:complete", "media_upload:local_file:dm_gif:all:hash:failure", "media_upload:remote:tweet_gif:all:full:success", "media_upload:remote:tweet_gif:all:full:failure", "media_upload:remote:tweet_gif:all:full:cancel", "media_upload:remote:dm_gif:all:full:success", "media_upload:remote:dm_gif:all:full:failure", "media_upload:remote:dm_gif:all:full:cancel", "messages:open_notification_render", "messages:open_notification_render_warm", "messages:first_message_api", "messages:first_message_api_warm", "money:auth-session-creation", "money:fingerprinting" ]
+        "value" : [ "image:wait_time:tweet_media:not_loaded:fling", "image:wait_time:tweet_media:not_loaded:navigate", "image:wait_time:tweet_media:undefined:success", "image:wait_time:tweet_media:undefined:failure", "image:wait_time:tweet_media:memory:success", "image:wait_time:tweet_media:memory:failure", "image:wait_time:tweet_media:local_file:success", "image:wait_time:tweet_media:local_file:failure", "image:wait_time:tweet_media:legacy_cache:success", "image:wait_time:tweet_media:legacy_cache:failure", "image:wait_time:tweet_media:network:success", "image:wait_time:tweet_media:network:failure", "web_view:wait_time:url:api:tco_resolution", "web_view:wait_time:url:local_cache:tco_resolution", "web_view:wait_time:url:redirect:tco_resolution", "home:first_tweet_api", "home:first_tweet_api_warm", "home:first_tweet_cache", "home:first_tweet_cache_warm", "home:first_tweet_request", "api:wifi:::rxbytes", "api:wifi:::txbytes", "api:mobile:::rxbytes", "api:mobile:::txbytes", "api:wifi:api::rxbytes", "api:wifi:api::txbytes", "api:mobile:api::rxbytes", "api:mobile:api::txbytes", "api:wifi:image::rxbytes", "api:wifi:image::txbytes", "api:mobile:image::rxbytes", "api:mobile:image::txbytes", "api:wifi:image:foundmediaimage:rxbytes", "api:wifi:image:foundmediaimage:txbytes", "api:mobile:image:foundmediaimage:rxbytes", "api:mobile:image:foundmediaimage:txbytes", "api:wifi:av::rxbytes", "api:wifi:av::txbytes", "api:mobile:av::rxbytes", "api:mobile:av::txbytes", "api:wifi:scribe::rxbytes", "api:wifi:scribe::txbytes", "api:mobile:scribe::rxbytes", "api:mobile:scribe::txbytes", "api:wifi:other::rxbytes", "api:wifi:other::txbytes", "api:mobile:other::rxbytes", "api:mobile:other::txbytes", "device:storage:appbytes", "device:storage:cachebytes", "device:storage:databytes", "device:storage:totalbytes", "media_upload:local_file:tweet_video:short:full:success", "media_upload:local_file:tweet_video:short:full:failure", "media_upload:local_file:tweet_video:short:full:cancel", "media_upload:local_file:tweet_video:short:processing:latency", "media_upload:local_file:tweet_video:short:hash:start", "media_upload:local_file:tweet_video:short:hash:complete", "media_upload:local_file:tweet_video:short:hash:failure", "media_upload:local_file:tweet_video:medium:full:success", "media_upload:local_file:tweet_video:medium:full:failure", "media_upload:local_file:tweet_video:medium:full:cancel", "media_upload:local_file:tweet_video:medium:processing:latency", "media_upload:local_file:tweet_video:medium:hash:start", "media_upload:local_file:tweet_video:medium:hash:complete", "media_upload:local_file:tweet_video:medium:hash:failure", "media_upload:local_file:tweet_video:long:full:success", "media_upload:local_file:tweet_video:long:full:failure", "media_upload:local_file:tweet_video:long:full:cancel", "media_upload:local_file:tweet_video:long:processing:latency", "media_upload:local_file:tweet_video:long:hash:start", "media_upload:local_file:tweet_video:long:hash:complete", "media_upload:local_file:tweet_video:long:hash:failure", "media_upload:local_file:tweet_video:xlong:full:success", "media_upload:local_file:tweet_video:xlong:full:failure", "media_upload:local_file:tweet_video:xlong:full:cancel", "media_upload:local_file:tweet_video:xlong:processing:latency", "media_upload:local_file:tweet_video:xlong:hash:start", "media_upload:local_file:tweet_video:xlong:hash:complete", "media_upload:local_file:tweet_video:xlong:hash:failure", "media_upload:local_file:dm_video:short:full:success", "media_upload:local_file:dm_video:short:full:failure", "media_upload:local_file:dm_video:short:full:cancel", "media_upload:local_file:dm_video:short:processing:latency", "media_upload:local_file:dm_video:short:hash:start", "media_upload:local_file:dm_video:short:hash:complete", "media_upload:local_file:dm_video:short:hash:failure", "media_upload:local_file:dm_video:medium:full:success", "media_upload:local_file:dm_video:medium:full:failure", "media_upload:local_file:dm_video:medium:full:cancel", "media_upload:local_file:dm_video:medium:processing:latency", "media_upload:local_file:dm_video:medium:hash:start", "media_upload:local_file:dm_video:medium:hash:complete", "media_upload:local_file:dm_video:medium:hash:failure", "media_upload:local_file:dm_video:long:full:success", "media_upload:local_file:dm_video:long:full:failure", "media_upload:local_file:dm_video:long:full:cancel", "media_upload:local_file:dm_video:long:processing:latency", "media_upload:local_file:dm_video:long:hash:start", "media_upload:local_file:dm_video:long:hash:complete", "media_upload:local_file:dm_video:long:hash:failure", "media_upload:local_file:dm_video:xlong:full:success", "media_upload:local_file:dm_video:xlong:full:failure", "media_upload:local_file:dm_video:xlong:full:cancel", "media_upload:local_file:dm_video:xlong:processing:latency", "media_upload:local_file:dm_video:xlong:hash:start", "media_upload:local_file:dm_video:xlong:hash:complete", "media_upload:local_file:dm_video:xlong:hash:failure", "media_upload:in_app_recorded:tweet_video:short:full:success", "media_upload:in_app_recorded:tweet_video:short:full:failure", "media_upload:in_app_recorded:tweet_video:short:full:cancel", "media_upload:in_app_recorded:tweet_video:short:processing:latency", "media_upload:in_app_recorded:tweet_video:medium:full:success", "media_upload:in_app_recorded:tweet_video:medium:full:failure", "media_upload:in_app_recorded:tweet_video:medium:full:cancel", "media_upload:in_app_recorded:tweet_video:medium:processing:latency", "media_upload:in_app_recorded:tweet_video:long:full:success", "media_upload:in_app_recorded:tweet_video:long:full:failure", "media_upload:in_app_recorded:tweet_video:long:full:cancel", "media_upload:in_app_recorded:tweet_video:long:processing:latency", "media_upload:in_app_recorded:tweet_video:xlong:full:success", "media_upload:in_app_recorded:tweet_video:xlong:full:failure", "media_upload:in_app_recorded:tweet_video:xlong:full:cancel", "media_upload:in_app_recorded:tweet_video:xlong:processing:latency", "media_upload:in_app_recorded:dm_video:short:full:success", "media_upload:in_app_recorded:dm_video:short:full:failure", "media_upload:in_app_recorded:dm_video:short:full:cancel", "media_upload:in_app_recorded:dm_video:short:processing:latency", "media_upload:in_app_recorded:dm_video:medium:full:success", "media_upload:in_app_recorded:dm_video:medium:full:failure", "media_upload:in_app_recorded:dm_video:medium:full:cancel", "media_upload:in_app_recorded:dm_video:medium:processing:latency", "media_upload:in_app_recorded:dm_video:long:full:success", "media_upload:in_app_recorded:dm_video:long:full:failure", "media_upload:in_app_recorded:dm_video:long:full:cancel", "media_upload:in_app_recorded:dm_video:long:processing:latency", "media_upload:in_app_recorded:dm_video:xlong:full:success", "media_upload:in_app_recorded:dm_video:xlong:full:failure", "media_upload:in_app_recorded:dm_video:xlong:full:cancel", "media_upload:in_app_recorded:dm_video:xlong:processing:latency", "media_upload:local_file:tweet_image::full:success", "media_upload:local_file:tweet_image::full:failure", "media_upload:local_file:tweet_image::full:cancel", "media_upload:local_file:tweet_image::processing:latency", "media_upload:local_file:tweet_image::hash:start", "media_upload:local_file:tweet_image::hash:complete", "media_upload:local_file:tweet_image::hash:failure", "media_upload:local_file:dm_image::full:success", "media_upload:local_file:dm_image::full:failure", "media_upload:local_file:dm_image::full:cancel", "media_upload:local_file:dm_image::processing:latency", "media_upload:local_file:dm_image::hash:start", "media_upload:local_file:dm_image::hash:complete", "media_upload:local_file:dm_image::hash:failure", "media_upload:in_app_recorded:tweet_image::full:success", "media_upload:in_app_recorded:tweet_image::full:failure", "media_upload:in_app_recorded:tweet_image::full:cancel", "media_upload:in_app_recorded:tweet_image::processing:latency", "media_upload:in_app_recorded:dm_image::full:success", "media_upload:in_app_recorded:dm_image::full:failure", "media_upload:in_app_recorded:dm_image::full:cancel", "media_upload:in_app_recorded:dm_image::processing:latency", "media_upload:local_file:tweet_gif:all:full:success", "media_upload:local_file:tweet_gif:all:full:failure", "media_upload:local_file:tweet_gif:all:full:cancel", "media_upload:local_file:tweet_gif:all:processing:latency", "media_upload:local_file:tweet_gif:all:hash:start", "media_upload:local_file:tweet_gif:all:hash:complete", "media_upload:local_file:tweet_gif:all:hash:failure", "media_upload:local_file:dm_gif:all:full:success", "media_upload:local_file:dm_gif:all:full:failure", "media_upload:local_file:dm_gif:all:full:cancel", "media_upload:local_file:dm_gif:all:processing:latency", "media_upload:local_file:dm_gif:all:hash:start", "media_upload:local_file:dm_gif:all:hash:complete", "media_upload:local_file:dm_gif:all:hash:failure", "media_upload:remote:tweet_gif:all:full:success", "media_upload:remote:tweet_gif:all:full:failure", "media_upload:remote:tweet_gif:all:full:cancel", "media_upload:remote:dm_gif:all:full:success", "media_upload:remote:dm_gif:all:full:failure", "media_upload:remote:dm_gif:all:full:cancel", "messages:open_notification_render", "messages:open_notification_render_warm", "messages:first_message_api", "messages:first_message_api_warm", "money:auth-session-creation", "money:fingerprinting", "app:mk_background_app_exit_task_time_count" ]
       },
       "periscope_url_destination_blacklist" : {
         "value" : [ "privacy", "channel", "discover", "content", "i", "auth", "oauth", "partners", "search", "couchmode", "help", "content-super-broadcasters", "gdpr", "vipprogram", "account" ]
@@ -5064,10 +5076,13 @@
         "value" : false
       },
       "search_features_ios_relevance_prompt_inline_variant_enabled" : {
-        "value" : true
+        "value" : false
       },
       "search_features_new_navigation_enabled" : {
         "value" : true
+      },
+      "search_features_results_share_enabled" : {
+        "value" : false
       },
       "search_features_use_modal_presentation" : {
         "value" : true
@@ -6251,6 +6266,9 @@
       "wtf_device_follow_nudge_turn_off_reactive_blending_enabled" : {
         "value" : false
       },
+      "x_ios_photo_editor_adjustment_enabled" : {
+        "value" : false
+      },
       "x_ios_photo_editor_chat_enabled" : {
         "value" : true
       },
@@ -6330,6 +6348,9 @@
         "value" : false
       },
       "xchat_enable_reaction_notifs" : {
+        "value" : false
+      },
+      "xchat_enable_realm_reach_check" : {
         "value" : false
       },
       "xchat_enable_single_message_locking" : {
@@ -6426,7 +6447,7 @@
         "value" : false
       },
       "xchat_message_request_rate_limit_upsell" : {
-        "value" : false
+        "value" : true
       },
       "xchat_passcode_options_enabled" : {
         "value" : false
@@ -6535,5 +6556,9 @@
   },
   "embedded_experiments" : [ ],
   "requires_restart" : [ ],
-  "supports_accessibility" : [ ]
+  "supports_accessibility" : [ ],
+  "versions" : {
+    "feature_switches" : "9176cdce889589bd3ddc79b9d65bc950f9f4989e",
+    "experiments" : "9176cdce889589bd3ddc79b9d65bc950f9f4989e"
+  }
 }
