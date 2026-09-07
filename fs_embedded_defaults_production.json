@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "383888c956da45dc8ff95268617878b2b37425a4",
+    "feature_set_token" : "083fe5b373ae8d6715f51fbc1dbcd2e66662c983",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1811,11 +1811,17 @@
       "grok_ios_fullscreen_image_actions_enabled" : {
         "value" : true
       },
+      "grok_ios_grok_bot_app_store_provider_token" : {
+        "value" : "9551"
+      },
+      "grok_ios_grok_bot_attribution_source" : {
+        "value" : "x_ios_grok_bot"
+      },
       "grok_ios_grok_bot_default_app_store_url" : {
         "value" : "https:\/\/apps.apple.com\/app\/apple-store\/id6794501026"
       },
       "grok_ios_grok_bot_default_deeplink_url" : {
-        "value" : "grokbot:\/\/"
+        "value" : "sand-mobile:\/\/"
       },
       "grok_ios_grok_bot_home_header_animation_enabled" : {
         "value" : false
@@ -1831,6 +1837,9 @@
       },
       "grok_ios_grok_bot_home_header_fatigue_days" : {
         "value" : 30.0
+      },
+      "grok_ios_grok_bot_home_header_target_app" : {
+        "value" : "grok_bot"
       },
       "grok_ios_grok_bot_home_hero_app_store_url" : {
         "value" : ""
@@ -1849,6 +1858,9 @@
       },
       "grok_ios_grok_bot_home_hero_image_url" : {
         "value" : ""
+      },
+      "grok_ios_grok_bot_home_hero_target_app" : {
+        "value" : "grok_bot"
       },
       "grok_ios_grok_bot_home_hero_variant" : {
         "value" : "v1"
@@ -1874,11 +1886,17 @@
       "grok_ios_grok_bot_preset_deeplink_url" : {
         "value" : ""
       },
-      "grok_ios_grok_bot_preset_delay_after_banner_dismiss_days" : {
-        "value" : 1.0
+      "grok_ios_grok_bot_preset_delay_after_banner_dismiss_seconds" : {
+        "value" : 86400.0
       },
       "grok_ios_grok_bot_preset_enabled" : {
         "value" : false
+      },
+      "grok_ios_grok_bot_preset_persistent" : {
+        "value" : false
+      },
+      "grok_ios_grok_bot_preset_target_app" : {
+        "value" : "grok_bot"
       },
       "grok_ios_grok_bot_preset_title" : {
         "value" : ""
@@ -1898,6 +1916,9 @@
       "grok_ios_grok_bot_sidebar_index" : {
         "value" : 0.0
       },
+      "grok_ios_grok_bot_sidebar_target_app" : {
+        "value" : "grok_bot"
+      },
       "grok_ios_grok_bot_tab_icon_animation_enabled" : {
         "value" : false
       },
@@ -1912,6 +1933,9 @@
       },
       "grok_ios_grok_bot_tab_icon_fatigue_days" : {
         "value" : 30.0
+      },
+      "grok_ios_grok_bot_tab_icon_target_app" : {
+        "value" : "grok_bot"
       },
       "grok_ios_grok_bot_upsells_enabled" : {
         "value" : false
@@ -6747,7 +6771,7 @@
         "value" : true
       },
       "x_sports_nfl_hub_home_tab_enabled" : {
-        "value" : false
+        "value" : true
       },
       "x_sports_nfl_hub_home_timeline_tag" : {
         "value" : "1000000000000000005"
@@ -7062,7 +7086,7 @@
   "requires_restart" : [ ],
   "supports_accessibility" : [ ],
   "versions" : {
-    "feature_switches" : "070636940959fda500476195d50d8ba3ae9a41d1",
-    "experiments" : "070636940959fda500476195d50d8ba3ae9a41d1"
+    "feature_switches" : "9176cdce889589bd3ddc79b9d65bc950f9f4989e",
+    "experiments" : "9176cdce889589bd3ddc79b9d65bc950f9f4989e"
   }
 }
