@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "857b15108eec1e7b2fcddb73608bcc141e03d1d7",
+    "feature_set_token" : "391cd8cdd74112e0299ba75452511afa711dd489",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -2253,13 +2253,13 @@
         "value" : false
       },
       "grok_ios_upsell_gating_views_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_ios_upsell_grok_app_deeplink_enabled" : {
         "value" : false
       },
       "grok_ios_upsell_grok_subscription_lookup_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_ios_v2_dash_new_badge_enabled" : {
         "value" : false
@@ -3861,7 +3861,7 @@
         "value" : true
       },
       "ios_super_awesome_video_cache_context_menu_min_duration_seconds" : {
-        "value" : 180.0
+        "value" : 90.0
       },
       "ios_switchreview_enabled" : {
         "value" : false
@@ -4329,13 +4329,13 @@
         "value" : true
       },
       "ios_ui_nested_quote_tweet_preview_hidden_for_community_notes_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_ui_nested_quote_tweet_preview_hidden_for_matching_outer_authors_enabled" : {
         "value" : false
       },
       "ios_ui_nested_quote_tweet_preview_hidden_for_promoted_enabled" : {
-        "value" : false
+        "value" : true
       },
       "ios_ui_nested_quote_tweet_preview_hidden_for_trailing_newline_enabled" : {
         "value" : false
@@ -5664,7 +5664,7 @@
         "value" : true
       },
       "search_features_smart_pills_typeahead_filters_enabled" : {
-        "value" : false
+        "value" : true
       },
       "search_features_use_modal_presentation" : {
         "value" : true
@@ -7218,7 +7218,7 @@
         "value" : false
       },
       "xchat_molecule_enabled" : {
-        "value" : false
+        "value" : true
       },
       "xchat_passcode_options_enabled" : {
         "value" : false
@@ -7330,9 +7330,5 @@
   },
   "embedded_experiments" : [ ],
   "requires_restart" : [ ],
-  "supports_accessibility" : [ ],
-  "versions" : {
-    "feature_switches" : "9176cdce889589bd3ddc79b9d65bc950f9f4989e",
-    "experiments" : "9176cdce889589bd3ddc79b9d65bc950f9f4989e"
-  }
+  "supports_accessibility" : [ ]
 }
