@@ -1,6 +1,6 @@
 {
   "default" : {
-    "feature_set_token" : "30ca7596a0e9338948fb5a70ae4e7876e7c1fb1d",
+    "feature_set_token" : "4f2b4a70e5ab8db77ad564735389f74b59c7a151",
     "config" : {
       "2fa_temporary_password_enabled" : {
         "value" : false
@@ -1161,7 +1161,7 @@
         "value" : false
       },
       "complat_subscriptions_title" : {
-        "value" : ""
+        "value" : "Subscription"
       },
       "complat_upgrade_card_config" : {
         "value" : ""
@@ -2076,7 +2076,7 @@
         "value" : ""
       },
       "grok_ios_grok_bot_sidebar_badge_version" : {
-        "value" : 2.0
+        "value" : 1.0
       },
       "grok_ios_grok_bot_sidebar_deeplink_url" : {
         "value" : ""
@@ -2112,7 +2112,7 @@
         "value" : false
       },
       "grok_ios_grok_link_immersive_enabled" : {
-        "value" : false
+        "value" : true
       },
       "grok_ios_home_page_data_stale_reload_threshold" : {
         "value" : 120.0
@@ -5501,12 +5501,6 @@
       "onboarding_new_local_push_reminder_to_finish_wait_time_seconds" : {
         "value" : 300.0
       },
-      "onboarding_new_skip_signup_timeline_refresh_enabled" : {
-        "value" : false
-      },
-      "onboarding_new_skip_signup_timeline_refresh_prefetch_enabled" : {
-        "value" : false
-      },
       "onboarding_notifications_backstop_prompt_enabled_by_account" : {
         "value" : true
       },
@@ -7197,7 +7191,7 @@
         "value" : [ ]
       },
       "x_sports_hub_home_timeline_ids" : {
-        "value" : [ "nfl:1925951614067650560", "ncaafb:1925951645872975873", "mlb:1925951672561319936" ]
+        "value" : [ "nfl:1925951614067650560", "ncaafb:1925951645872975873", "mlb:1925951672561319936", "nba:1925951454121967616", "nhl:1925951775544061952" ]
       },
       "x_sports_mlb_game_background_poll_interval_seconds" : {
         "value" : 30.0
@@ -7228,6 +7222,9 @@
       },
       "x_sports_ncaafb_game_feed_auto_refresh_interval_seconds" : {
         "value" : 90.0
+      },
+      "x_sports_ncaafb_game_feed_enabled" : {
+        "value" : true
       },
       "x_sports_ncaafb_game_field_midfield_logo_enabled" : {
         "value" : false
@@ -7440,6 +7437,9 @@
         "value" : "9223372036854775807"
       },
       "xchat_grok_bots" : {
+        "value" : false
+      },
+      "xchat_grok_bots_connect_on_start" : {
         "value" : false
       },
       "xchat_grok_bots_connectors" : {
